@@ -17,7 +17,7 @@ I created this simple tool for **macOS** to help keep my desktop clean. Whenever
    ```bash
    git clone https://github.com/yourusername/ScreenshotOrganizer.git
 
-2. **Navigate to directory
+2. Navigate to directory
 
 
 3. Run the App:
