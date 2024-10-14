@@ -3,11 +3,14 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 
 def set_screenshot_location(folder_path):
-    
+    # Create the folder if it doesn't exist
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
 
-    os.system(f'defaults location "{folder_path}"')
+    # Set the screenshot location using the correct command
+    os.system(f'defaults write com.apple.screencapture location "{folder_path}"')
+    os.system('killall SystemUIServer')  # Refresh the System UI
+
     messagebox.showinfo("Success", f'Screenshot location set to: {folder_path}')
 
 def browse_folder():
@@ -15,6 +18,8 @@ def browse_folder():
     if folder_path:
         set_screenshot_location(folder_path)
 
+
+# Create GUI
 
 root = tk.Tk()
 root.title("Screenshot Location Setter")
