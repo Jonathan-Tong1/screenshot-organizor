@@ -15,14 +15,14 @@ I created this simple tool for **macOS** to help keep my desktop clean. Whenever
 ## How to Use It
 1. **Clone the Repo:**
    ```bash
-   git clone https://github.com/yourusername/ScreenshotOrganizer.git
+   git clone https://github.com/yourusername/set_screenshot_location.git
 
 2. Navigate to directory
 
 
 3. Run the App:
    ```bash
-   python3 screenshot_gui.py
+   python3 set_screenshot_location.py
 
 
 I just wanted a simple way to keep my desktop tidy, and now you can do the same! If you have any suggestions or find bugs, feel free to reach out!
