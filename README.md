@@ -1,0 +1,1 @@
+I created this simple tool for macOS to help keep my desktop clean. Whenever I take a screenshot, it used to clutter my screen, and I wanted a better way to manage them. This app lets you choose a specific folder for all your screenshots, so they’re out of sight but easy to find!
